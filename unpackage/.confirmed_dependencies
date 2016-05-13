@@ -1,0 +1,84 @@
+{
+	"index.html": {
+		"resources": [
+			"images/cbd.jpg",
+			"images/logo.png",
+			"images/muwu.jpg",
+			"images/yuantiao.jpg",
+			"js/mui.min.js",
+			"css/app.css",
+			"fonts/mui.ttf",
+			"images/60x60.gif",
+			"css/mui.min.css",
+			"images/shuijiao.jpg",
+			"js/tab.js",
+			"download.html",
+			"main.html"
+		],
+		"refer": [
+			"download.html",
+			"find.html",
+			"owner.html",
+			"main.html"
+		]
+	},
+	"download.html": {
+		"resources": [
+			"js/mui.min.js",
+			"css/app.css",
+			"css/mui.min.css",
+			"fonts/mui.ttf",
+			"images/logo.png",
+			"images/60x60.gif"
+		]
+	},
+	"main.html": {
+		"resources": [
+			"images/cbd.jpg",
+			"images/logo.png",
+			"images/muwu.jpg",
+			"images/yuantiao.jpg",
+			"images/60x60.gif",
+			"images/shuijiao.jpg",
+			"css/app.css",
+			"fonts/mui.ttf",
+			"css/mui.min.css",
+			"js/mui.min.js",
+			"download.html"
+		],
+		"refer": [
+			"download.html"
+		]
+	},
+	"find.html": {
+		"resources": [
+			"js/mui.min.js",
+			"css/app.css",
+			"css/mui.min.css"
+		]
+	},
+	"owner.html": {
+		"resources": [
+			"images/cbd.jpg",
+			"css/app.css",
+			"css/mui.min.css",
+			"images/logo.png",
+			"fonts/mui.ttf",
+			"images/muwu.jpg",
+			"js/mui.view.js",
+			"js/mui.min.js"
+		],
+		"refer": [
+			"setting.html"
+		]
+	},
+	"setting.html": {
+		"resources": [
+			"images/logo.png",
+			"css/app.css",
+			"js/mui.min.js",
+			"fonts/mui.ttf",
+			"css/mui.min.css"
+		]
+	}
+}

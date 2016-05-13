@@ -1,0 +1,211 @@
+
+.mui-plus.mui-android header.mui-bar{
+	display: none;
+	
+}
+.mui-plus.mui-android .mui-bar-nav~.mui-content{
+	padding: 0;
+	
+}
+.mui-bar-nav{
+	background-color: red;
+}
+a{
+	color:white ;
+}
+body,.mui-content{
+	background-color: #FFFFFF;
+	
+	font-family: "黑体";
+}
+
+
+
+/*@list*/
+.list{
+	border-bottom: 1px solid #c8c7cc;
+	overflow: hidden;
+	
+}
+.list .mui-table-view-cell:after{
+	background: none;
+}
+.list .mui-table-view-cell:first-child{
+	background: linear-gradient(to bottom,#c8c7cc ,#c8c7cc ) no-repeat right/1px 40px;
+}
+
+.mui-list{
+	
+	text-align: center;
+	color: green;
+    
+}
+.mui-list h5{
+	color: #000;
+}
+
+
+/*@list2*/
+.list2-title{
+	margin:20px 10px;
+}
+.list2-title a{
+	color: #c8c7cc;
+}
+.active{
+	color: green;
+}
+.list2-fresh{
+	margin: 40px;
+}
+.list2 .mui-table-view:before{
+	background: none;
+}
+
+/*@footer*/
+
+#footer .mui-active{
+	color: red;
+}
+
+
+/*@download*/
+.download-list.mui-active{
+	background-color: red;
+	color: #fff;
+	
+}
+.download-title-detail{
+	font-size: 0.7rem;
+	color: bisque;
+}
+.list-style:after,.list-style:before{
+	right: 15px;
+	left: 15px;
+}
+.top-list>.list-style:after,.top-list>.list-style:before{
+	background: none;
+}
+
+/*@find.html*/
+.mui-bar-white{
+	background-color: red;
+	color: bisque;
+}
+#sliderSegmentedControl .mui-active{
+	color: #fff;
+}
+#sliderSegmentedControl .mui-control-item{
+	display: inline-block;
+	width: 20%;
+	text-align: left;
+}
+#sliderSegmentedControl{
+	padding-left: 22px;
+	
+}
+#item1mobile,#item2mobile{
+	border: none;
+}
+#sliderProgressBar{
+	background-color: #fff;
+	margin: -2px 0 0 15px;
+}
+
+/*@owner.html*/
+
+.mui-bar1{
+	background-color: transparent;
+	
+}
+.owner-setting{
+	color: #fff;
+	position: absolute;
+	right: 0;
+    top:0;
+}
+.owner-img{
+	padding-top: 60px;
+	
+	background: url(../images/muwu.jpg) no-repeat 100%;
+  
+    height: 300px;
+    
+  
+}
+
+.owner-img>a:after{
+	content: "";
+	width: 80px;
+	height: 80px;
+	
+	z-index: 9999;
+	border-radius: 50%;
+
+	display: block;
+	
+	margin:0 auto;
+	margin-bottom: 10px;
+	background-image: url(../images/logo.png);
+}
+.owner-img h5{
+	text-align: center;
+	color: #fff;
+	
+}
+.owner-grid{
+	padding-top: 40px;
+}
+#mui-grid-9{
+	background: transparent;
+}
+#mui-grid-9 li{
+	background: linear-gradient(to bottom,#c8c7cc ,#c8c7cc ) no-repeat right/1px 40px;
+}
+#mui-grid-9,#mui-grid-9 li{
+	
+	border: none;
+}
+#mui-grid-9 li:last-child{
+	background: none;
+}
+#mui-grid-9 li a{
+	padding-bottom: 0;
+}
+.owner-grids ul.mui-grid-9,.owner-grids ul.mui-grid-9 li.mui-table-view-cell{
+	background-color: #fff;
+	border: none;
+}
+.owner-grids li:nth-of-type(1) span{
+	color: salmon;
+}
+.owner-grids li:nth-of-type(3) span{
+	color: limegreen;
+}
+.owner-grids li:nth-of-type(4) span{
+	color: darkorange;
+}
+.owner-grids li:nth-of-type(5) span{
+	color: mediumseagreen;
+}
+.owner-grids li:nth-of-type(6) span{
+	color: mediumpurple;
+}
+
+
+/*@setting.html*/
+.setting .mui-table-view li:after{
+	background: none;
+}
+.setting-btn{
+	margin:20px 10%;
+	width: 80%;
+	height: 40px;
+	font-size: 1rem;
+	line-height: 1;
+	padding: 0;
+	color: red;
+}
+.setting .setting-content {
+	margin-top: 40px;
+}
